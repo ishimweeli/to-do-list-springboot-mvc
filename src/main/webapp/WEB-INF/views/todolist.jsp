@@ -7,6 +7,7 @@
 <body>
 <h1>ToDo List</h1>
 <ul>
+    <li>to do list</li>
     <c:forEach items="${todos}" var="todo">
         <li>${todo.title}</li>
     </c:forEach>
